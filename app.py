@@ -1,5 +1,7 @@
-"""bu modül mynet sitesindeki hisse senetlerinin bilgilerini çekerek 
-bunları json dosyasına yazar"""
+"""
+bu modül mynet sitesindeki hisse senetlerinin bilgilerini çekerek 
+bunları json dosyasına yazar
+"""
 import json
 import requests
 from bs4 import BeautifulSoup
