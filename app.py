@@ -6,6 +6,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+
 URL= "https://finans.mynet.com/borsa/hisseler/"
 response = requests.get(URL, timeout=10)
 soup = BeautifulSoup(response.text, "html.parser")
