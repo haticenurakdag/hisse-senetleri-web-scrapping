@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import time
 import json
 
+
 browser = webdriver.Chrome()
 
 URL="https://finans.mynet.com/borsa/hisseler/"
